@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styling.css">
+         <title>guess game </title> </head>
+        <body>
+            <div class="game">
+            <div> <h1>WORD GUESSING GAME</h1></div>
+            <div id="jumbleword">
+                <div id="word">
+                    <h1 class="question">there you are</h1>
+                </div> 
+            </div>
+            <div id="time">
+                <table  id="tands" width="100%" border="3px">
+                    <tr><td><h3>TIMER</h3></td>
+                    <td><h3>SCORE</h3></td></tr>
+                    <tr>
+                        <td><h1 id="timesec">60 secs</h1></td>
+                        <td><h1 id="score">00</h1></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div>
+                <h1 id="status">STATUS</h1>
+            </div>
+            <div id="enter">
+                <h2>ENTER YOUR GUESS HERE</h2>
+                <textarea class="answer" placeholder="enter here"> </textarea></div>
+            
+            <button id="but" onclick="butcli()"><h3>CHECK</h3></button>
+            </div>
+        <div id="response"> 
+            <div id="total score">
+                <h1 id="showscore">YOUR TOTAL SCORE IS:</h1>
+            </div>
+        </div>
+            <script src="procedure.js">
+               </script></body>
+</html>

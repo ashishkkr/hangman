@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.game{
+    text-align: center;
+    align-self: center;
+}
+#jumbleword{
+    border-width: 5px;
+    border-style: solid;
+    background-color: brown;
+    height: 300px;
+    width: 600px;
+    margin-left: 300px;
+    text-align: center;
+    align-items: center;
+    }
+    #word{
+        border-width: 5px;
+        border-style: solid;
+        background-color:burlywood;
+        height: 100px;
+        width: 300px;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 150px;
+        font-size: xx-large;
+        }
+        .question{
+            font-size: xxx-large;
+            height: 50px;
+            margin-top: 18px;
+            width: 295px;}
+        #enter{
+            text-align: center;
+            margin-top: 40px;
+        }
+        .answer{
+            font-size: xxx-large;
+            height: 50px;
+            margin-top: 18px;
+            width: 295px;
+        }
+        h2{
+            background-color:blanchedalmond;
+        }
+        #count{   border-width: 5px;
+            border-style: solid;
+            background-color:black;
+            height: 75px;
+            width: 200px;
+            align-items: center;
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 150px;
+            font-size: xx-large;
+            float: right;
+        }
+        #tands{
+            background-color: brown;
+            color:white;
+        }
+        #status{
+            background-color: blanchedalmond;
+            margin-left: 450px;
+            width: 25%;
+            align-items: center;
+            text-align: center;
+            border-width: 5px;
+            border-style: solid;
+        }
+        @media only screen and(max-width:700px)
+        {
+            .game{
+                width: 50%;
+            }
+        }
+    @media only screen and(max-width:500px)
+        {
+            .game{
+                width: 50%;
+            }
+        }
+        #but{
+            background-color: brown;
+            color: white;
+            height: 50px;
+            width: 100px;
+        }   
+        #response{
+            height: 500px;
+            width: 100%;
+            background-color: brown;
+            color:white;
+            text-align: center;
+            display: none;
+        }
